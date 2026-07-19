@@ -1,0 +1,16 @@
+# Model checkpoints — too large for GitHub, regenerate via training notebooks
+checkpoints/
+
+# Cleaned/raw datasets — regenerate via cleaning-datasets.ipynb, or download from Kaggle
+cleaned_dataset/
+*.csv
+!combined_model_results.csv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
