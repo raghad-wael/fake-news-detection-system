@@ -1,6 +1,6 @@
 # Fake News Detection System
 
-An end-to-end misinformation detection pipeline that cleans and merges 3 real-world datasets, benchmarks 9 models spanning classical ML to fine-tuned transformers, and deploys the best-performing ensemble as an interactive Streamlit web app — including a soft/hard voting ensemble comparison and live per-model stats (F1, MCC, latency, parameter count).
+An end-to-end misinformation detection pipeline that cleans and merges 3 real-world datasets, benchmarks 9 models spanning classical ML to fine-tuned transformers, and deploys all the models as an interactive Streamlit web app — including a soft/hard voting ensemble comparison and live per-model stats (F1, MCC, latency, parameter count).
 
 **Graduation Project — British University in Egypt (2025–2026)**
 
@@ -80,4 +80,4 @@ The app will only show/enable models whose checkpoint files are found — missin
 
 ## Note
 
-Training and evaluation were run on Kaggle notebooks (GPU); dataset paths reference `/kaggle/input/...` and will need adjusting for local runs.
+Training and evaluation were run on Kaggle notebooks (GPU: Tesla T4); dataset paths reference `/kaggle/input/...` and will need adjusting for local runs.
